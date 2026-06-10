@@ -1,12 +1,19 @@
-# Grocery-Supermarket-End-to-End-ETL-Pipeline-using-PostgreSQ
+# 🛒 Grocery Supermarket End-to-End ETL Pipeline using PostgreSQL
 
 ## 📌 Project Overview
-Project ini bertujuan untuk membangun data pipeline otomatis (ETL) yang mengolah data transaksi mentah supermarket (periode Januari - Mei) dari skema **Staging Area**, ditransformasikan ke dalam **Data Warehouse (DWH)** dengan pemodelan *Star Schema*, hingga membentuk ringkasan siap pakai di **Data Mart (DM)** untuk kebutuhan visualisasi manajemen melalui Power BI[cite: 2].
+Project ini bertujuan untuk membangun data pipeline otomatis (ETL) yang mengolah data transaksi mentah supermarket (periode Januari - Mei) dari skema **Staging Area**, ditransformasikan ke dalam **Data Warehouse (DWH)** dengan pemodelan *Star Schema*, hingga membentuk ringkasan siap pakai di **Data Mart (DM)** untuk kebutuhan visualisasi manajemen melalui Power BI.
 
 ### 🎯 Objectives
 - Membangun data pipeline yang otomatis, terstruktur, dan bebas dari risiko redundansi data[cite: 2].
 - Menerapkan *Performance Isolation* dengan memisahkan database operasional (OLTP) toko dengan database analitik laporan[cite: 2].
-- Menganalisis tren transaksi harian, performa produk, dan kontribusi wilayah penjualan[cite: 2].
+- Menganalisis tren transaksi bisnis harian, performa produk, dan kontribusi wilayah penjualan[cite: 2].
+
+---
+
+## 📂 Project Resources (Quick Links)
+Untuk mempermudah review, Anda dapat langsung mengakses file utama project ini melalui tautan di bawah:
+* 📊 **[Download Power BI Interactive Dashboard (ETL Dashboard.pbix)](./ETL%20Dashboard.pbix)**
+* 📄 **[View Full Presentation Deck (ETL Pipeline using PostgreSQL.pdf)](./ETL%20Pipeline%20using%20PostgreSQL%20.pdf)**
 
 ---
 
@@ -45,6 +52,6 @@ Berdasarkan visualisasi data warehouse yang telah dibangun, berikut adalah temua
 ---
 
 ## 🚀 How to Run This Project
-1. Clone repositori ini:
+1. Clone repositori ini ke komputer lokal Anda:
 ```bash
    git clone [https://github.com/raflyalvish-id/](https://github.com/raflyalvish-id/)[nama-repo-kamu].git
