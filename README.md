@@ -13,7 +13,7 @@ Project ini bertujuan untuk membangun data pipeline otomatis (ETL) yang mengolah
 ## 📂 Project Resources (Quick Links)
 Untuk mempermudah review, Anda dapat langsung mengakses file utama project ini melalui tautan di bawah:
 * 📊 **[Download Power BI Interactive Dashboard (ETL Dashboard.pbix)](./ETL%20Dashboard.pbix)**
-* 📄 **[View Full Presentation Deck (ETL Pipeline using PostgreSQL.pdf)](./ETL%20Pipeline%20using%20PostgreSQL%20.pdf)**
+* 📄 **[View Full Presentation Deck (ETL Pipeline using PostgreSQL.pdf)](./ETL%20Pipeline%20using%20PostgreSQL.pdf)**
 
 ---
 
@@ -49,9 +49,3 @@ Berdasarkan visualisasi data warehouse yang telah dibangun, berikut adalah temua
 2. **Driving Retention:** Rasio transaksi per pelanggan masih rendah (~1.3x)[cite: 2]. Disarankan meluncurkan *Customer Loyalty Program* (sistem poin/member) untuk merangsang *repeat order*[cite: 2].
 3. **Regional Expansion:** Karena performa pendapatan di seluruh cabang saat ini sudah sangat stabil dan merata (Rp 6.2M - Rp 6.4M per kota), perusahaan siap melakukan ekspansi pasar ke kota besar baru yang sejenis[cite: 2].
 
----
-
-## 🚀 How to Run This Project
-1. Clone repositori ini ke komputer lokal Anda:
-```bash
-   git clone [https://github.com/raflyalvish-id/](https://github.com/raflyalvish-id/)[nama-repo-kamu].git
